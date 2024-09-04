@@ -17,7 +17,7 @@ const userSchema = mongoose. Schema ({
         default:[]
     },
     contact: Number,
-    picture: String
+    picture: String,
 })
 
 module.exports = mongoose.model('user',userSchema) 
